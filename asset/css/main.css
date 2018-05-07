@@ -1,0 +1,183 @@
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+
+html body{
+  overflow-x: hidden;
+  height: 100%;
+}
+
+ /*****************************
+  side-bar
+  The elements for the side bar
+  **************************/
+
+.side-bar{
+  background: #262626;
+  color: #ffffff;
+  height: 100%;
+}
+
+.side-bar--div{
+  padding: 2em;
+  margin: 2em;
+}
+
+.side-bar__logo{
+  padding: 2em;
+  margin: 1em 2em;
+}
+
+.side-bar--div h2{
+  font-style: italic;
+  font-weight: 700;
+}
+
+.side-bar--div h5{
+  font-weight: 200;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 0.45em;
+}
+
+.side-bar--div p{
+  line-height: 1em;
+  font-weight: 300;
+}
+
+.side-bar--div__padding{
+  padding-left: 0.45em;
+}
+
+.side-bar--div__red{
+  border-left: 2px solid tomato;
+}
+
+.side-bar--div__blue{
+  border-left: 2px solid #cdffff;
+}
+
+.side-bar--div__green{
+  border-left: 2px solid pink;
+}
+
+  /******************
+  end of side bar
+  ******************/
+
+
+  /***************************
+  navbar
+  The top bar on the main-body
+  ***************************/
+
+.nav-bar{
+  padding: 0.5em;
+  background-color: #ffffff;
+}
+
+.nav-bar ul li {
+  display: inline;
+  float: left;
+  text-decoration: none;
+  padding: 0 1em;
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+
+.nav-bar a{
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-bar__sec{
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  padding: 0.5em;
+}
+
+.nav-bar span{
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: 200;
+  width: 100%;
+}
+
+
+.nav-bar input{
+  text-align: center;
+  background-color: #f3f3f3;
+  border: none;
+  letter-spacing: 1px;
+  font-size: 1em;
+  width: 20em;
+}
+
+  /*************
+  end of nav-bar
+  *************/
+
+ /*************
+ main body
+ The Elements of the main body
+ *************/
+
+.main-body{
+  background-color: #f3f3f3;
+}
+
+.main-body--box__header{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #262626;
+  margin-bottom: 1em;
+}
+
+.main-body--box{
+  background-color: #fff;
+  height: 12em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+.main-body--box ul li{
+  list-style: none;
+  letter-spacing: 1px;
+}
+
+.main-body__long{
+  height: 15em;
+}
+
+.red{
+  color: tomato;
+}
+
+.small{
+  font-size: 0.67em;
+  letter-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    body{
+      display: none;
+    }
+    .side-bar{
+      display: none;
+    }
+}
